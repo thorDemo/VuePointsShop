@@ -1,0 +1,110 @@
+body,p,ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+/* 顶部栏 */
+.top-nav{
+  width: 100%;
+  height: 3rem;
+  line-height: 3.5rem;
+  background-color: #671116;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.top-nav-logo{
+  color: #B58024;
+}
+.top-nav > div{
+  display: inline-block;
+  height: 100%;
+}
+.top-nav-left{
+  float: left;
+  margin-left: 10px;
+}
+.top-nav-right{
+  float: right;
+  margin-right: 10px;
+}
+.banner-item > img{
+  width: 100%;
+}
+.swiper-container{
+  height: 7.28rem;
+}
+.top-nav-t{
+  color: #B58024;
+}
+/* 每个一级页面共有class */
+.main-wrap{
+  margin-top: 3rem;
+  margin-bottom: 3.125rem;
+  background: #151515;
+}
+/* 公告 */
+.Notice-sign{
+  width: 2rem;
+  height: 100%;
+  background: url('../images/topnav/lb.png') center no-repeat;
+  float: left;
+  box-shadow: 1px 0px 5px rgba(0,0,0,0.8);
+}
+.Notice-textBox {
+  width: 100%;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  font-size: .5rem;
+  color: #999999;
+  background: #2A2D36;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  z-index: 9;
+}
+.Notice-text {
+  width: 100%;
+  padding-left: 42px;
+  position: absolute;
+  bottom: 0;
+}
+.slide-enter-active, .slide-leave-active {
+  transition: all 0.5s linear;
+}
+.slide-enter{
+  transform: translateY(20px) scale(1);
+  opacity: 1;
+} 
+.slide-leave-to {
+  transform: translateY(-20px) scale(0.8);
+  opacity: 0;
+}
+/* 底部导航 */
+.bottom-tab{
+  width:100%;
+  height:3.125rem;
+  background-color:#2A2D36;
+  border-top: 1px solid #656666;
+  position: fixed;
+  left:0px;
+  bottom:0px;
+}
+.tab-item{
+  width: 20%;
+  float: left;
+  align-items:center;
+  justify-content:center;
+  font-size:14px;
+  color:#666;
+  z-index: 999;
+}
+.NavSigh{
+    width:33px;
+    margin-top:3px;
+}
+.on{
+  color:#b58023;
+}
