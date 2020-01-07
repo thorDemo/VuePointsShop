@@ -250,13 +250,13 @@ export default {
   margin-top: -2px;
   background: #292C35;
 }
-.level-welfare-wrap.el-tabs__header .el-tabs__item,.el-tabs--top.level-welfare-wrap.el-tabs__header .el-tabs__item:nth-child(2),.el-tabs--top .level-welfare-wrap .el-tabs__header .el-tabs__item:last-child{
+.level-welfare-wrap .el-tabs__header .el-tabs__item{
   padding: 2px 4.1% 0;
   height: 62px;
   vertical-align: bottom;
 }
 @media screen and (max-width: 360px) {
-  .level-welfare-wrap .el-tabs__header .el-tabs__item,.el-tabs--top .level-welfare-wrap .el-tabs__header .el-tabs__item:nth-child(2),.el-tabs--top .level-welfare-wrap .el-tabs__header .el-tabs__item:last-child{
+  .level-welfare-wrap .el-tabs__header .el-tabs__item{
   padding: 2px 3.5% 0;
   height: 62px;
   vertical-align: bottom;

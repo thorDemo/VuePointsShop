@@ -141,17 +141,17 @@ export default {
 }
 </script>
 <style>
-.swiper-container{
+.recommend-wrap .swiper-container{
   height: 100%;
   margin-bottom: -4px;
 }
-.el-tabs__nav-wrap{
+.recommend-wrap .el-tabs__nav-wrap{
   width: 100%
 }
 /* .el-tabs__item{
   padding: 0 5.26%;
 } */
-.el-tabs--border-card{
+.recommend-wrap .el-tabs--border-card{
   border: 0;
   /* margin-bottom: 50px; */
 }
@@ -173,18 +173,18 @@ export default {
 .recommend-wrap .el-tabs__header .el-tabs__item{
   color: #666666;
 }
-.el-tabs__nav-wrap.is-scrollable{
+.recommend-wrap .el-tabs__nav-wrap.is-scrollable{
   padding: 0 20px;
   box-sizing: border-box;
 }
-.el-tabs--border-card{
+.recommend-wrap .el-tabs--border-card{
   box-shadow: 0 0 0 0 rgb(0, 0, 0, 0)
 }
-.el-tabs--border-card>.el-tabs__content {
+.recommend-wrap .el-tabs--border-card>.el-tabs__content {
   margin-top: -2px;
   background: #292C35;
 }
-.el-tabs--border-card>.el-tabs__content{
+.recommend-wrap .el-tabs--border-card>.el-tabs__content{
   padding: 15px 15px 0 15px;
 }
 

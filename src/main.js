@@ -5,7 +5,6 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import {Cell, CellGroup, Tabbar, TabbarItem, PullRefresh, Stepper, Tab, Tabs, Button, Row, Col, Swipe, SwipeItem, Lazyload, List, Field, NavBar} from 'vant'
 import '../src/assets/css/common.css'
 import '../src/assets/css/index.css'
 import 'swiper/dist/css/swiper.css'
@@ -15,7 +14,6 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 // Vue.use(BScroll)
 Vue.use(VueAwesomeSwiper)
 Vue.use(ElementUI)
-Vue.use(Cell).use(CellGroup).use(Tabbar).use(TabbarItem).use(Stepper).use(PullRefresh).use(Tab).use(Tabs).use(Field).use(NavBar).use(Button).use(Row).use(Col).use(Swipe).use(SwipeItem).use(Lazyload).use(List)
 
 Vue.config.productionTip = false
 
