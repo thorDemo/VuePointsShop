@@ -155,22 +155,22 @@ export default {
   border: 0;
   /* margin-bottom: 50px; */
 }
-.el-tabs--border-card>.el-tabs__header .el-tabs__item{
+.recommend-wrap .el-tabs__header .el-tabs__item{
   border: 0
 }
-.el-tabs--border-card>.el-tabs__header{
+.recommend-wrap .el-tabs__header{
   padding: 10px 15px 0;
   background: #151515
 }
-.el-tabs--border-card>.el-tabs__header .el-tabs__item:not(.is-disabled):hover{
+.recommend-wrap .el-tabs__header .el-tabs__item:not(.is-disabled):hover{
   color: #ffffff;
 }
-.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active{
+.recommend-wrap .el-tabs__header .el-tabs__item.is-active{
   height: 39px;
   color: #ffffff;
   background: #292C35;
 }
-.el-tabs--border-card>.el-tabs__header .el-tabs__item{
+.recommend-wrap .el-tabs__header .el-tabs__item{
   color: #666666;
 }
 .el-tabs__nav-wrap.is-scrollable{
@@ -187,5 +187,6 @@ export default {
 .el-tabs--border-card>.el-tabs__content{
   padding: 15px 15px 0 15px;
 }
+
 
 </style>

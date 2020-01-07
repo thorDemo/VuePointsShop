@@ -1,48 +1,33 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
+import BottomNav from '@/components/common/bottomNav'
+import TopNav from '@/components/common/topNav'
+import shouye from '@/components/page/shouye'
+import Vip from '@/components/page/Vip'
+import Youhui from '@/components/page/Youhui'
 
 Vue.use(Router)
-
-
-function loadView(view){
-    return () => import(`@/components${view}.vue`)
-}
 
 export default new Router({
   mode: 'history',
   routes: [
+    {path: '/Mainnav', component: BottomNav},
+    {path: '/Topnav', component: TopNav},
+    {path: '/', component: shouye},
     {
-      path: '/',
-      name: 'Index',
-      component: loadView('/page/shouYe')
+      path: '/shouye',
+      component: shouye,
+      meta: {index: 2, title: '<img src="/static/topnav/logo.png " alt="logo">'}
     },
     {
-      path: '/shouYe/',
-      name: 'shouYe',
-      component: loadView('/page/shouYe')
-    },
-    {
-      path: '/vip/',
-      name: 'vip',
-      components: loadView('/page/vip'),
-      meta: {index: 2, title: '<p>VIP权益</p>'}
-    },
-    {
-      path: '/youHui/',
-      name: 'youHui',
-      components: loadView('/page/youHui'),
+      path: '/YouHui',
+      component: Youhui,
       meta: {index: 2, title: '<p>优惠专区</p>'}
     },
     {
-      path: '/bottomNav/',
-      name: 'bottomNav',
-      component: loadView('/common/bottomNav')
-    },
-    {
-      path: '/topNav/',
-      name: 'topNav',
-      component: loadView('/common/topNav')
-    },
+      path: '/Vip',
+      component: Vip,
+      meta: {index: 2, title: '<p>VIP权益</p>'}
+    }
   ]
 })

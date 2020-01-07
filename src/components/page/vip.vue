@@ -220,49 +220,49 @@ export default {
 .el-tabs--border-card{
   border: 0;
 }
-.el-tabs--border-card>.el-tabs__header .el-tabs__item{
+.level-welfare-wrap .el-tabs__header .el-tabs__item{
   border: 0;
   font-size: .8rem;
 }
-.el-tabs--border-card>.el-tabs__header{
+.level-welfare-wrap .el-tabs__header{
   padding: 10px 3.65% 0;
   background: #151515
 }
-.el-tabs--border-card>.el-tabs__header .el-tabs__item:not(.is-disabled):hover{
+.level-welfare-wrap .el-tabs__header .el-tabs__item:not(.is-disabled):hover{
   color: #ffffff;
 }
-.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active{
+.level-welfare-wrap .el-tabs__header .el-tabs__item.is-active{
   height: 39px;
   color: #ffffff;
   background: #292C35;
 }
-.el-tabs--border-card>.el-tabs__header .el-tabs__item{
+.level-welfare-wrap .el-tabs__header .el-tabs__item{
   color: #666666;
 }
-.el-tabs__nav-wrap.is-scrollable{
+.el-tabs__nav-wrap .is-scrollable{
   padding: 0 20px;
   box-sizing: border-box;
 }
 .el-tabs--border-card{
   box-shadow: 0 0 0 0 rgb(0, 0, 0, 0)
 }
-.el-tabs--border-card>.el-tabs__content {
+.level-welfare-wrap .el-tabs__content {
   margin-top: -2px;
   background: #292C35;
 }
-.el-tabs--border-card>.el-tabs__header .el-tabs__item,.el-tabs--top.el-tabs--border-card>.el-tabs__header .el-tabs__item:nth-child(2),.el-tabs--top.el-tabs--border-card>.el-tabs__header .el-tabs__item:last-child{
+.level-welfare-wrap.el-tabs__header .el-tabs__item,.el-tabs--top.level-welfare-wrap.el-tabs__header .el-tabs__item:nth-child(2),.el-tabs--top .level-welfare-wrap .el-tabs__header .el-tabs__item:last-child{
   padding: 2px 4.1% 0;
   height: 62px;
   vertical-align: bottom;
 }
 @media screen and (max-width: 360px) {
-  .el-tabs--border-card>.el-tabs__header .el-tabs__item,.el-tabs--top.el-tabs--border-card>.el-tabs__header .el-tabs__item:nth-child(2),.el-tabs--top.el-tabs--border-card>.el-tabs__header .el-tabs__item:last-child{
+  .level-welfare-wrap .el-tabs__header .el-tabs__item,.el-tabs--top .level-welfare-wrap .el-tabs__header .el-tabs__item:nth-child(2),.el-tabs--top .level-welfare-wrap .el-tabs__header .el-tabs__item:last-child{
   padding: 2px 3.5% 0;
   height: 62px;
   vertical-align: bottom;
 }
 }
-.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active{
+.level-welfare-wrap .el-tabs__header .el-tabs__item.is-active{
   height: 62px;
 }
 </style>
