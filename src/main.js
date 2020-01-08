@@ -29,15 +29,5 @@ new Vue({
 
 // 导航守卫 可实现跳转前验证登录
 router.beforeEach((to, from, next) => {
-  let str = '<p>个人中心</p>'
-  if (to.meta.title) {
-    document.getElementById('top-logo-change').innerHTML = to.meta.title
-    if (to.meta.title === str) {
-      document.getElementById('top-nav-right').innerHTML = '<img src="/static/topnav/kf.png" alt="搜索">'
-    } else {
-      document.getElementById('top-nav-right').innerHTML = '<img src="/static/topnav/ss.png" alt="搜索">'
-    }
-    // document.title = to.meta.title
-  }
   next()
 })

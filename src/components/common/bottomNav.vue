@@ -20,6 +20,7 @@
       <img class="NavSigh" :src="'/Member' === $route.path ? tabBarImgArr[4].selected : tabBarImgArr[4].normal" alt="我的">
       <p :class="{on: '/Member' === $route.path}">我的</p>
     </div>
+    <div :[key]="value"></div>
   </div>
 </template>
 <script>

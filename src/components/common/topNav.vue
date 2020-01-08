@@ -3,8 +3,8 @@
     <div class="top-nav-left">
       <img src="../../assets/images/topnav/cd.png" alt="菜单">
     </div>
-    <div id="top-logo-change" class="top-nav-logo">
-      <img src="../../assets/images/topnav/logo.png" alt="logo">
+    <div id="top-logo-change" v-html="topMessage">
+
     </div>
     <div id="top-nav-right" class="top-nav-right">
       <img src="../../assets/images/topnav/ss.png" alt="搜索">
@@ -19,7 +19,8 @@ export default {
         {normal: require('../../assets/images/topnav/logo.png')},
         {normal: require('../../assets/images/topnav/ss.png')},
         {normal: require('../../assets/images/topnav/cd.png')}
-      ]
+      ],
+      
     }
   }
 }

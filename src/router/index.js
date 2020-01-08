@@ -17,7 +17,6 @@ export default new Router({
     {
       path: '/shouye',
       component: shouye,
-      meta: {index: 2, title: '<img src="/static/topnav/logo.png " alt="logo">'}
     },
     {
       path: '/YouHui',
