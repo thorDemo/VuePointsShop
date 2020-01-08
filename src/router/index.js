@@ -5,6 +5,7 @@ import TopNav from '@/components/common/topNav'
 import shouye from '@/components/page/shouye'
 import Vip from '@/components/page/Vip'
 import Youhui from '@/components/page/Youhui'
+import perry from '@/components/page/perry'
 
 Vue.use(Router)
 
@@ -27,6 +28,11 @@ export default new Router({
       path: '/Vip',
       component: Vip,
       meta: {index: 2, title: '<p>VIP权益</p>'}
+    },
+    {
+      path:'/perry',
+      component: perry,     
+      
     }
   ]
 })
