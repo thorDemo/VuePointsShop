@@ -4,7 +4,7 @@
       <img src="../../assets/images/topnav/cd.png" alt="菜单">
     </div>
     <div id="top-logo-change" v-html="topMessage">
-
+        <span>这个是标题</span>
     </div>
     <div id="top-nav-right" class="top-nav-right">
       <img src="../../assets/images/topnav/ss.png" alt="搜索">
